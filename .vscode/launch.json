@@ -10,7 +10,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "bolum1/string_literals_interpolation.dart"
+            "program": "episode2/switch_using.dart",
+            
             
         }
     ]
