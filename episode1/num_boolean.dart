@@ -1,28 +1,28 @@
 void main(List<String> args) {
-  int yas = 34;
-  print(yas);
-  yas = 44;
-  print(yas);
+  int age = 34;
+  print(age);
+  age = 44;
+  print(age);
 
-  num yil = 1988;
-  print(yil);
+  num year = 1988;
+  print(year);
 
-  double sayi = 52;
-  print(sayi);
+  double number = 52;
+  print(number);
 
-  int kilo = 8.6.toInt();
-  print(kilo);
+  int weight = 8.6.toInt();
+  print(weight);
 
-  var sayi2 = 56;
+  var number1 = 56;
 
-  int numara;
-  numara = 5;
-  print(numara + 9);
+  int number2;
+  number2 = 5;
+  print(number2 + 9);
 
   int? s1 = null;
   s1 = 9;
   print(s1 + 5);
 
-  int hexadecimalSayi = 0xAABBCC;
-  print(hexadecimalSayi);
+  int hexadecimalnumber2 = 0xAABBCC;
+  print(hexadecimalnumber2);
 }

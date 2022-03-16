@@ -1,21 +1,20 @@
 void main(List<String> args) {
-  String isim = "seyit metin";
-  String soyIsim = 'eryesil';
-  var kurs = 'Dart\'ın Kullanımı';
-  String kursTanimi = "Dart'ı ve Flutter'ı Öğreneceğiz";
+  String name = "seyit metin";
+  String surname = 'eryesil';
+  var course = 'Dart\'ın To Use';
+  String coursedefinition = "Dart and Flutter to learn";
 
-  print(isim + " " + soyIsim);
-  print("$isim $soyIsim");
-  print("soyadım olan $soyIsim'te bulunan karakter sayısı:" +
-      soyIsim.length.toString());
-  print("Karakter sayısı ${soyIsim.length}");
-  print("Adım olan $isim kelimesinde bulunan karakter sayısı ${isim.length}");
-  double en = 10;
-  double boy = 12;
+  print(name + " " + surname);
+  print("$name $surname");
+  print("Number of characters in $surname:" + surname.length.toString());
+  print("Number of characters ${surname.length}");
+  print("Number of characters in $name  ${name.length}");
+  double width = 10;
+  double height = 12;
 
-  print("Eni $en ve boyu $boy olan dikdörgenin alanı ${en * boy}");
+  print(
+      " Area of ​​rectangle with width and height $width  $height  ${width * height}");
   print(15.9.toInt());
-  print("Eni ${en.toInt()} ve boyu ${boy.toInt()} olan dikdörgenin alanı $double ${(en * boy).toInt()}");
-
-
+  print(
+      " Area of rectangle with, width and height ${width.toInt()}  ${height.toInt()} $double ${(width * height).toInt()}");
 }
