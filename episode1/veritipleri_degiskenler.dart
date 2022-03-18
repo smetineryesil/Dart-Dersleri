@@ -1,30 +1,32 @@
 import 'dart:async';
 
 main(List<String> args) {
-  int yas = 34645494864;
-  double ortlama = 54564564.6;
-  num yil = 1998;
+  int age = 34645494864;
+  double avarage = 54564564.6;
+  num year = 1998;
 
-  print(yas);
-  print(ortlama);
+  print(age);
+  print(avarage);
 
-  String ad = "metin";
+  String name = "metin";
 
-  print(ad);
+  print(name);
 
-  print(ad + "");
-  print(ad + "in sevdiği renkler");
-  print(ad + "in yaşı");
+  print(name + "");
+  print(name + "in sevdiği renkler");
+  print(name + "in yaşı");
+  print(year);
 
-  bool erkekMi = true;
-  bool issizMi = false;
+  bool is_it_a_boy = true;
+  bool you_unemployed = false;
 
-  print(erkekMi);
-  print(issizMi);
+  print(is_it_a_boy);
+  print(you_unemployed);
 
-  var okul = "ege";
-  var okulNumarasi = 1453;
-  var kedisiVarmi = true;
-  print(okulNumarasi);
-  
+  var school = "ege";
+  var school_number = 1453;
+  var does_she_have_a_cat = true;
+  print(school);
+  print(school_number);
+  print(does_she_have_a_cat);
 }

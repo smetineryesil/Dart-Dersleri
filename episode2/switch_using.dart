@@ -34,7 +34,7 @@ void main(List<String> args) {
   }
 
   int number = 6;
-  int episode = (number / 10).toInt();
+  int episode = (number/ 10).toInt();
 
   switch (episode) {
     case 3:
