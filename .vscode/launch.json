@@ -10,8 +10,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "episode2/switch_using.dart",
-            
+            "program": "${file}",
+            "console":"terminal",
             
         }
     ]
