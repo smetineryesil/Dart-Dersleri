@@ -1,4 +1,3 @@
-
 void main(List<String> args) {
   String note = "155";
 
@@ -33,8 +32,8 @@ void main(List<String> args) {
       }
   }
 
-  int number = 6;
-  int episode = (number/ 10).toInt();
+  int number = 10;
+  int episode = (number / 10).toInt();
 
   switch (episode) {
     case 3:

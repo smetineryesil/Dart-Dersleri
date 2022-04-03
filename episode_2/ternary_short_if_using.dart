@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  int number1 = 4;
+  int number1 = 6;
   var number2 = 6;
   int numbershort;
   /* if (number1 < number2) {

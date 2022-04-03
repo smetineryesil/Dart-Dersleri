@@ -6,6 +6,5 @@ void main(List<String> args) {
   print("emre's lessons");
   print("emre" + "altunbilek");
 
-  //ı am writing code for the first time here 
-
+  //ı am writing code for the first time here
 }
