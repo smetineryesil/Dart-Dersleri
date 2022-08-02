@@ -6,6 +6,7 @@ int fonksiyon(int number) {
   int result = 1;
   for (int i = 1; i <= number; i++) {
     result = result * i;
+    print(result);
   }
   return result;
 }

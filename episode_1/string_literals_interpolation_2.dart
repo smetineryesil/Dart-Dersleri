@@ -5,7 +5,7 @@ void main(List<String> args) {
 
   print(name + surname);
   print(
-      "my name $name $surname age {$age} and number of characters in my name ${name.length}'tir");
+      "my name $name $surname age {$age} and number of characters in my name ${name.length}");
 
   int firstedge = 3;
   int secondedge = 4;
